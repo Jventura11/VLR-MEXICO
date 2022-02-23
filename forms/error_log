@@ -1,0 +1,20 @@
+[29-Oct-2020 11:34:52 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home2/dimaltsa/public_html/forms/contact.php on line 13
+[29-Oct-2020 11:34:52 America/Mexico_City] PHP Warning:  include(ventura1127@gmail.com): failed to open stream: No such file or directory in /home2/dimaltsa/public_html/forms/contact.php on line 13
+[29-Oct-2020 11:34:52 America/Mexico_City] PHP Warning:  include(ventura1127@gmail.com): failed to open stream: No such file or directory in /home2/dimaltsa/public_html/forms/contact.php on line 13
+[29-Oct-2020 11:34:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'ventura1127@gmail.com' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/dimaltsa/public_html/forms/contact.php on line 13
+[29-Oct-2020 11:34:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'PHP_Email_Form' not found in /home2/dimaltsa/public_html/forms/contact.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/dimaltsa/public_html/forms/contact.php on line 18
+[29-Oct-2020 11:38:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home2/dimaltsa/public_html/forms/contact.php on line 20
+[29-Oct-2020 11:40:21 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home2/dimaltsa/public_html/forms/contact.php on line 50
+[29-Oct-2020 15:54:39 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home2/dimaltsa/public_html/forms/cotizacion.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/dimaltsa/public_html/forms/cotizacion.php on line 58
+[29-Oct-2020 16:15:56 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home2/dimaltsa/public_html/forms/cotizacion.php on line 58
+[29-Oct-2020 16:34:28 America/Mexico_City] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PHP_Email_Form::add_message(), 0 passed in /home2/dimaltsa/public_html/forms/cotizacion.php on line 57 and at least 1 expected in /home2/dimaltsa/public_html/assets/vendor/php-email-form/php-email-form.php:48
+Stack trace:
+#0 /home2/dimaltsa/public_html/forms/cotizacion.php(57): PHP_Email_Form->add_message()
+#1 {main}
+  thrown in /home2/dimaltsa/public_html/assets/vendor/php-email-form/php-email-form.php on line 48

@@ -828,7 +828,7 @@ section {
 }
 
 .clients .client-logo {
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -839,9 +839,9 @@ section {
   height: 100px;
 }
 
-.clients .client-logo img {
+.clients .client-logo img { /*Cambio de tamaño de los logos cliente*/
   transition: all 0.3s ease-in-out;
-  height: 36px;
+  height: 100px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }

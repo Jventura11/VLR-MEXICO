@@ -841,7 +841,7 @@ section {
 
 .clients .client-logo img { /*Cambio de tamaño de los logos cliente*/
   transition: all 0.3s ease-in-out;
-  height: 200px;
+  height: 100px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
